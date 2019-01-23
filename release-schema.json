@@ -1,0 +1,24 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "procurementMethodType": {
+          "title": "Procurement Method Type",
+          "enum": [
+            "belowThreshold",
+            "aboveThresholdUA",
+            "aboveThresholdUA.defense",
+            "aboveThresholdEU",
+            "reporting",
+            "negotiation",
+            "negotiation.quick",
+            "competitivedialogue",
+            "esco"
+          ],
+          "type": "string",
+          "description": "Type of Open Procurement procedure"
+        }
+      }
+    }
+  }
+}

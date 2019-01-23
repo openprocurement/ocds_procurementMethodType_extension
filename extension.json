@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Procurement Method Type"
+  },
+  "description": {
+    "en": "Type of Open Procurement procedure"
+  },
+    "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ],
+  "documentationUrl": {
+    "en": "https://github.com/openprocurement/ocds_procurementMethodType_extension"
+  }
+}
